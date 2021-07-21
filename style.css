@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* header */
+  --colorBlack: #000;
+  /* link */
+  --colorGrey: #4d4e53;
+}
+
+html {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: var(--colorGrey);
+}
+
+header {
+  font-size: 1.8rem;
+  color: var(--colorBlack);
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorGrey);
+}
